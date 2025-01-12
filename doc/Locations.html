@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic Destinations - Films, Series, and Their Locations</title>
+    <link rel="stylesheet" href="HomePage.css">
+</head>
+<body>
+    <header>
+        <h1>Films, Series, and Their Locations</h1>
+        <p>Discover famous filming locations from your favorite movies and series!</p>
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="Locations.html">Films and Locations</a></li>
+                <li><a href="Curiosities.html">About Us</a></li>
+                <li><a href="Favourites.html">Our Favourites</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Featured Films and Locations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Film/Series</th>
+                        <th colspan="2">Location Details</th>
+                        <th rowspan="2">Image</th>
+                    </tr>
+                    <tr>
+                        <th>Country/City</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody id="locationTable">
+                    <!-- Rows will be dynamically loaded via JavaScript -->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">Data sourced from <a href="locations.xml" download>locations</a></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Highlighted Locations</h2>
+            <div class="carousel">
+                <input type="radio" name="carousel" id="slide1" checked>
+                <input type="radio" name="carousel" id="slide2">
+                <input type="radio" name="carousel" id="slide3">
+                <input type="radio" name="carousel" id="slide4">
+                <input type="radio" name="carousel" id="slide5">
+                <input type="radio" name="carousel" id="slide6">
+                <input type="radio" name="carousel" id="slide7">
+                <input type="radio" name="carousel" id="slide8">
+                
+                <div class="slides-container">
+                    <div class="slides">
+                        <figure>
+                            <img src="../doc/images/Hobbiton2.jpg" alt="Hobbiton">
+                            <figcaption>Hobbiton. Matamata, New Zealand.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/WBStudios.avif" alt="Warner Bros Studios, Burbank">
+                            <figcaption>Warner Bros. Studios. Los Angeles, California, USA.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/hogwartsexpress.avif" alt="Hogwarts Express">
+                            <figcaption>Glenfinnan Viaduct. Lockaber, Scotland.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/MI6-Headquarters.webp" alt="MI6 Headquarters">
+                            <figcaption>MI6 Headquarters. London, United Kingdom.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/Glysteri.jpg" alt="Glysteri">
+                            <figcaption>Glysteri Beach. Skopelos, Greece.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/Rocadragon.webp" alt="Rocadragon">
+                            <figcaption>San Juan de Gaztelugatxe. Vizcaya, Spain.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/Twisters.webp" alt="Twisters">
+                            <figcaption>Twisters. Albuquerque, New Mexico, United States.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/Creel House.webp" alt="Creel House">
+                            <figcaption>Creel House. 2nd Avenue in Rome, Atlanta, Georgia, United States.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/Maui.avif" alt="Maui">
+                            <figcaption>Maui. Hawaii, United States.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="../doc/images/Holburne.jpg" alt="Holburne Museum">
+                            <figcaption>Holburne Museum of Art. Bath, United Kingdom.</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                <label for="slide8" class="carousel-arrow prev-arrow" id="prev1">&#10094;</label>
+                <label for="slide1" class="carousel-arrow prev-arrow" id="prev2">&#10094;</label>
+                <label for="slide2" class="carousel-arrow prev-arrow" id="prev3">&#10094;</label>
+                <label for="slide3" class="carousel-arrow prev-arrow" id="prev4">&#10094;</label>
+                <label for="slide4" class="carousel-arrow prev-arrow" id="prev5">&#10094;</label>
+                <label for="slide5" class="carousel-arrow prev-arrow" id="prev6">&#10094;</label>
+                <label for="slide6" class="carousel-arrow prev-arrow" id="prev7">&#10094;</label>
+                <label for="slide7" class="carousel-arrow prev-arrow" id="prev8">&#10094;</label>
+                
+                <label for="slide2" class="carousel-arrow next-arrow" id="next1">&#10095;</label>
+                <label for="slide3" class="carousel-arrow next-arrow" id="next2">&#10095;</label>
+                <label for="slide4" class="carousel-arrow next-arrow" id="next3">&#10095;</label>
+                <label for="slide5" class="carousel-arrow next-arrow" id="next4">&#10095;</label>
+                <label for="slide6" class="carousel-arrow next-arrow" id="next5">&#10095;</label>
+                <label for="slide7" class="carousel-arrow next-arrow" id="next6">&#10095;</label>
+                <label for="slide8" class="carousel-arrow next-arrow" id="next7">&#10095;</label>
+                <label for="slide1" class="carousel-arrow next-arrow" id="next8">&#10095;</label>
+                
+                <div class="carousel-indicators">
+                    <label for="slide1" class="indicator"></label>
+                    <label for="slide2" class="indicator"></label>
+                    <label for="slide3" class="indicator"></label>
+                    <label for="slide4" class="indicator"></label>
+                    <label for="slide5" class="indicator"></label>
+                    <label for="slide6" class="indicator"></label>
+                    <label for="slide7" class="indicator"></label>
+                    <label for="slide8" class="indicator"></label>
+                </div>
+            </div>
+        </section>
+        
+       <!-- <iframe src="https://www.cinemapper.com" ></iframe>-->
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cinematic Destinations. All rights reserved.</p>
+    </footer>
+
+    <script src="Locations.js"></script>
+</body>
+</html>
