@@ -9,7 +9,7 @@
         const featuredCaption = document.getElementById('featuredCaption');
 
         // Load XML file
-        fetch('locations.xml')
+        fetch('./data/locations.xml')
             .then(response => {
                 if (!response.ok) throw new Error('Failed to load XML');
                 return response.text();

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<films xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="Locations.xsd">
+    <category name="Movies">
+        <film>
+            <name>Lord of the Rings</name>
+            <location>Matamata, New Zealand</location>
+            <description>Home of Hobbiton, the iconic hobbit village.</description>
+            <image>../doc/images/Hobbiton.jpg</image>
+        </film>
+        <film>
+            <name>Lalaland</name>
+            <location>Los Angeles, United States</location>
+            <description>The city of dreams, the setting for iconic musical numbers.</description>
+            <image>../doc/images/Lalaland.avif</image>
+        </film>
+        <film>
+            <name>Harry Potter</name>
+            <location>Oxford, United Kingdom</location>
+            <description>The Hogwarts School inspired by the architecture of the University of Oxford.</description>
+            <image>../doc/images/Hogwarts.jpg</image>
+        </film>
+        <film>
+            <name>007 Skyfall</name>
+            <location>Scotland</location>
+            <description>Stunning mountainous landscapes feature as Bond's remote retreat.</description>
+            <image>../doc/images/skyfall.jpg</image>
+        </film>
+        <film>
+            <name>Mamma Mia</name>
+            <location>Skopelos, Greece</location>
+            <description>The Greek island that served as the main setting for this vibrant musical comedy.</description>
+            <image>../doc/images/skopelos.jpg</image>
+        </film>
+    </category>
+    <category name="Series">
+        <film>
+            <name>Game of Thrones</name>
+            <location>Dubrovnik, Croatia</location>
+            <description>The walled city that brought King's Landing to life.</description>
+            <image>../doc/images/Kings-Landing-Dubrovnik.jpg</image>
+        </film>
+        <film>
+            <name>Breaking Bad</name>
+            <location>Albuquerque, New Mexico, United States</location>
+            <description>Iconic locations such as Walter White's house and Los Pollos Hermanos.</description>
+            <image>../doc/images/BreakingBad.webp</image>
+        </film>
+        <film>
+            <name>Stranger Things</name>
+            <location>Atlanta, Georgia, United States</location>
+            <description>The fictional town of Hawkins comes to life on the outskirts of Atlanta.</description>
+            <image>../doc/images/Hawkins.webp</image>
+        </film>
+        <film>
+            <name>White Lotus</name>
+            <location>Sicily, Italy</location>
+            <description>The luxurious San Domenico Palace hotel in Taormina serves as the backdrop.</description>
+            <image>../doc/images/WhiteLotus.webp</image>
+        </film>
+        <film>
+            <name>Bridgerton</name>
+            <location>Bath, United Kingdom</location>
+            <description>Elegant Georgian buildings recreate the Regency era.</description>
+            <image>../doc/images/Bath.webp</image>
+        </film>
+    </category>
+</films>
