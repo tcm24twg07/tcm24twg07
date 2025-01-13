@@ -477,3 +477,342 @@ td:last-child {
         grid-template-columns: 1fr;
     }
 }
+
+/* Curiosities Section Styles */
+#curiosities {
+    padding: 20px;
+}
+
+/* Route Styles */
+#portuguese-route, #spanish-route, #french-route {
+    position: relative;
+    padding: 20px;
+}
+
+/* Dropdown Button Styles */
+.dropdown-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    width: auto;
+    position: relative;
+}
+
+.dropdown-btn img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.dropdown-btn span {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    position: absolute;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-btn:hover .dropdown-content {
+    display: block;
+}
+
+/* Destination Images */
+.destination-images img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.destination2-images img {
+    width: 100%;
+    max-width: 500px;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.destination-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Movie and Series Locations */
+.movie-location-container, .series-location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.movie-location, .series-location {
+    text-align: center;
+    width: calc(25% - 20px);
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.movie-location img, .series-location img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.movie-location img:hover, .series-location img:hover {
+    transform: scale(1.05);
+}
+
+.movie-location p, .series-location p {
+    margin-top: 10px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word;
+    color: #444;
+    font-size: 1rem;
+}
+
+/* Movie and Series Sections */
+#movie-1, #movie-2, #movie-3, #movie-4, #movie-5 {
+    padding: 20px;
+    background-color: #f0e6f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+#series-1, #series-2, #series-3, #series-4, #series-5 {
+    padding: 20px;
+    background-color: #e5fbfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+/* Destinations Container */
+.destinations-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.destination {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    margin: 0;
+}
+
+.destination:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    .movie-location, .series-location {
+        width: 100%;
+    }
+
+    .movie-location img, .series-location img,
+    .dropdown-btn img, .destination-images img {
+        width: 90%;
+    }
+
+    .destinations-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .destination {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+/* Quick Link Section Styles */
+div.align-center {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div.align-center p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+div.align-center p a {
+    color: #1e3d58;
+    font-weight: normal;
+    padding: 8px 15px;
+    background-color: #e9ecef;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+div.align-center p a:hover {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+/* Section Title Links */
+section div p a {
+    color: #1e3d58;
+    padding: 5px 10px;
+    background-color: #e9ecef;
+    border-radius: 15px;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+section div p a:hover {
+    background-color: #2a9d8f;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Movie and Series Section Links */
+#movies div p a, #series div p a {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    background-color: #e9ecef;
+    border-radius: 15px;
+    margin: 0 3px;
+    transition: all 0.3s ease;
+}
+
+#movies div p a:hover, #series div p a:hover {
+    background-color: #2a9d8f;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Section Headers */
+#movies h2, #series h2 {
+    color: #1e3d58;
+    margin: 30px 0 15px;
+    font-size: 1.8rem;
+}
+
+/* Subsection Headers */
+#movies h3, #series h3 {
+    color: #2a9d8f;
+    margin: 25px 0;
+    font-size: 1.5rem;
+}
+
+/* Update existing movie and series section backgrounds */
+#movie-1, #movie-2, #movie-3, #movie-4, #movie-5 {
+    background-color: rgba(240, 230, 240, 0.9);
+    margin: 30px 0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#series-1, #series-2, #series-3, #series-4, #series-5 {
+    background-color: rgba(229, 251, 253, 0.9);
+    margin: 30px 0;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    div.align-center p a,
+    section div p a,
+    #movies div p a,
+    #series div p a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 0.9rem;
+    }
+
+    #movies h2, #series h2 {
+        font-size: 1.6rem;
+    }
+
+    #movies h3, #series h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Destination Title Links */
+.destination h3 a {
+    color: #1e3d58;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    background-color: #e9ecef;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.destination h3 a:hover {
+    background-color: #2a9d8f;
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Update destination container styles */
+.destinations-container .destination {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsive adjustments for destination titles */
+@media screen and (max-width: 768px) {
+    .destination h3 a {
+        font-size: 1.1rem;
+        padding: 4px 8px;
+    }
+}
