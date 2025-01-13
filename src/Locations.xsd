@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define complex type for film elements -->
+    <xs:complexType name="filmType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="location" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="image" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Define complex type for category elements -->
+    <xs:complexType name="categoryType">
+        <xs:sequence>
+            <xs:element name="film" type="filmType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="name" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- Define root element -->
+    <xs:element name="films">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="category" type="categoryType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema> 

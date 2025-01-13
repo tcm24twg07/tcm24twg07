@@ -1,6 +1,6 @@
 # Cinematic Destinations
 
-Repository to host the project developed for 'Web Technologies', a first-year subject at ISEP. Developed by Group 1TG1: @JohnDoe, @JaneSmith.
+Repository to host the project developed for 'Web Technologies', a second-year subject at UMAIA. Developed by Group 07: @SimonDeient, @JuliaPerez.
 
 ## Short Theme Description
 Cinematic Destinations is an interactive web platform dedicated to film tourism, helping users discover and explore famous filming locations from movies and TV series around the world. The platform connects movie enthusiasts with real-world filming locations, providing detailed information about various filming sites, including images and descriptions.
