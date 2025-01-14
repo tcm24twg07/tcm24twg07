@@ -16,7 +16,6 @@ Cinematic Destinations is an interactive web platform dedicated to film tourism,
   * [favourites.js](./src/favourites.js) - Favorites management system
   * [HomePage.js](./src/HomePage.js) - Homepage interactions
 * XML data is in the [data/](./data/) folder
-  * [locations.xml](./data/locations.xml) - Filming locations database
 
 ## Gallery
 
