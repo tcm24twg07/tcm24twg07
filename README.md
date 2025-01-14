@@ -22,7 +22,7 @@ Cinematic Destinations is an interactive web platform dedicated to film tourism,
 
 | Home Page | Locations Page | Curiosities Page | Favourites Page |
 |------------|----------------|------------------|-----------------|
-| ![Home](./images/home.jpg) | ![Locations](./images/locations.jpg) | ![Curiosities](./images/curiosities.jpg) | ![Favourites](./images/favourites.jpg) |
+| ![Home](./images/HomeCap.png) | ![Locations](./images/LocationCap.png) | ![Curiosities](./images/CuriositieCap.png) | ![Favourites](./images/FavouritesCap.png) |
 | Main landing page with featured destinations | Dynamic location listings and gallery | Interactive routes and facts | Curated recommendations |
 
 ## Technologies
@@ -30,6 +30,7 @@ Cinematic Destinations is an interactive web platform dedicated to film tourism,
 * [CSS3](https://www.w3.org/Style/CSS/) - Styling and animations
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Dynamic content and interactivity
 * [XML](https://www.w3.org/XML/) - Data storage and organization
+* [XSD](https://www.w3schools.com/xml/xml_schema.asp) - Data validation
 
 ## Features
 ### Home Page (HomePage.html)
