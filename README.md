@@ -22,7 +22,7 @@ Cinematic Destinations is an interactive web platform dedicated to film tourism,
 
 | Home Page | Locations Page | Curiosities Page | Favourites Page |
 |------------|----------------|------------------|-----------------|
-| ![Home](./images/HomeCap.png) | ![Locations](./images/LocationCap.png) | ![Curiosities](./images/CuriositieCap.png) | ![Favourites](./images/FavouritesCap.png) |
+| ![Home](./doc/images/HomeCap.png) | ![Locations](./doc/images/LocationCap.png) | ![Curiosities](./doc/images/CuriositieCap.png) | ![Favourites](./doc/images/FavouritesCap.png) |
 | Main landing page with featured destinations | Dynamic location listings and gallery | Interactive routes and facts | Curated recommendations |
 
 ## Technologies
@@ -80,12 +80,9 @@ Cinematic Destinations is an interactive web platform dedicated to film tourism,
 
 ### Chapter 4: [Presentation](./doc/c4.md)
 * Project demonstration
-* Future improvements
-* Conclusions
 
 ## Team
 * Simon Deient [@SimonDeient](https://github.com/SimonDeient)
 * Julia Pérez [@JuliaPerez](https://github.com/JuliaPerez)
 
-## License
-© 2025 Cinematic Destinations. All rights reserved.
+
