@@ -9,17 +9,21 @@ Cinematic Destinations is an interactive web platform dedicated to film tourism,
 * Source code is in the [src/](./src/) folder
   * [HomePage.html](./src/HomePage.html) - Main landing page
   * [Locations.html](./src/Locations.html) - Filming locations directory
+  * [Curiosities.html](./src/Curiosities.html) - Behind-the-scenes information and routes
+  * [OurFavourites.html](./src/OurFavourites.html) - Curated recommendations
   * [HomePage.css](./src/HomePage.css) - Main styling file
   * [Locations.js](./src/Locations.js) - Dynamic content generation
+  * [favourites.js](./src/favourites.js) - Favorites management system
+  * [HomePage.js](./src/HomePage.js) - Homepage interactions
 * XML data is in the [data/](./data/) folder
   * [locations.xml](./data/locations.xml) - Filming locations database
 
 ## Gallery
 
-| Home Page | Locations Page | Carousel View |
-|-----------|---------------|---------------|
-| ![Home](./images/home.jpg) | ![Locations](./images/locations.jpg) | ![Carousel](./images/carousel.jpg) |
-| Main landing page | Location listings | Interactive image carousel |
+| Home Page | Locations Page | Curiosities Page | Favourites Page |
+|------------|----------------|------------------|-----------------|
+| ![Home](./images/home.jpg) | ![Locations](./images/locations.jpg) | ![Curiosities](./images/curiosities.jpg) | ![Favourites](./images/favourites.jpg) |
+| Main landing page with featured destinations | Dynamic location listings and gallery | Interactive routes and facts | Curated recommendations |
 
 ## Technologies
 * [HTML5](https://html.spec.whatwg.org/) - Page structure and content
@@ -39,10 +43,22 @@ Cinematic Destinations is an interactive web platform dedicated to film tourism,
 
 ### Locations Page (Locations.html)
 * Dynamic table of filming locations
-* Interactive image carousel
+* Responsive image gallery
 * Detailed location information
 * XML-driven content
-* Responsive image gallery
+* Location search and filtering
+
+### Curiosities Page (Curiosities.html)
+* Behind-the-scenes information
+* Interactive route exploration
+* Cultural facts and trivia
+* Dropdown information panels
+
+### Our Favourites Page (OurFavourites.html)
+* Curated location recommendations
+* Personal highlights
+* Featured destinations
+* Interactive location cards
 
 ## Report
 
